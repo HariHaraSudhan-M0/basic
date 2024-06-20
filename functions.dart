@@ -2,5 +2,6 @@ void main(){
   abc(){
     print("hello");
   }
-  abc();
+  var cba = abc();
+  print(cba);
 }
