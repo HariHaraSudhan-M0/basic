@@ -13,7 +13,9 @@ class Person{
 //method is a function.
 //inside a class function is called as method
   void showdata(){
-   
+    print('name=$name');
+    print('sex=$sex');
+    print('age=$age');
   }
 
 }
