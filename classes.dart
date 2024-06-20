@@ -1,9 +1,9 @@
 void main(){
     Person p1 = Person("gokul","male",23);
     Person p2 = Person("boopesh","male",22);
-    //p1.showdata();
-    //p2.showdata();
-    print(p1.age);
+    p1.showdata();
+    p2.showdata();
+    //print(p1.age);
 }
 class Person{
   String? name,sex;
@@ -20,6 +20,7 @@ class Person{
     print('name=$name');
     print('sex=$sex');
     print('age=$age');
+    print("the person name is ${name}, sex is ${sex} and ${age} years old");
   }
 
 }
