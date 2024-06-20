@@ -1,5 +1,8 @@
 void main(){
-
+    Person p1 = Person("gokul","male",23);
+    Person p2 = Person("boopesh","male",22);
+    p1.showdata();
+    p2.showdata();
 }
 class Person{
   String? name,sex;
