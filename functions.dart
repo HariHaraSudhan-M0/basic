@@ -1,7 +1,7 @@
 void main(){
-  abc(){
-    print("hello");
+  abc(String name){
+    print("hello $name");
   }
-  var cba = abc();
+  var cba = abc("boopesh");
   print(cba);
 }
